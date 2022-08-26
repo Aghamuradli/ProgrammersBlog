@@ -395,4 +395,5 @@ C:\Users\Agamuradov\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\n
 C:\Users\Agamuradov\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\ProgrammersBlog.Mvc.Views.pdb
 C:\Users\Agamuradov\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutCssPartial.cshtml.g.cs
 C:\Users\Agamuradov\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutJsPartial.cshtml.g.cs
-C:\Users\Agamuradov\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutSideBarNav.cshtml.g.cs
+C:\Users\Agamuradov\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutSideBarNavPartial.cshtml.g.cs
+C:\Users\Agamuradov\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
