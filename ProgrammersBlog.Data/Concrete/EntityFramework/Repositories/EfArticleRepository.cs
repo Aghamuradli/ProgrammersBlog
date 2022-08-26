@@ -14,7 +14,7 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Repositories
     {
         public EfArticleRepository(DbContext context) : base(context)
         {
-
+            
         }
     }
 }
