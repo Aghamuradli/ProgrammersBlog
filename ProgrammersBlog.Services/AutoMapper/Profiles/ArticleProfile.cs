@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace ProgrammersBlog.Services.AutoMapper.Profiles
 {
-    partial class ArticleProfile:Profile
+    public class ArticleProfile : Profile
     {
         public ArticleProfile()
         {
-            CreateMap<ArticleAddDto, Article>().ForMember(dest=>dest.CreatedDate,opt=>opt.MapFrom(x=>DateTime.Now));
-            CreateMap<ArticleUpdateDto, Article>().ForMember(dest=>dest.ModifiedDate, opt=>opt.MapFrom(x=>DateTime.Now));
+            CreateMap<ArticleAddDto, Article>().ForMember(dest => dest.CreatedDate, opt => opt.MapFrom(x => DateTime.Now));
+            CreateMap<ArticleUpdateDto, Article>().ForMember(dest => dest.ModifiedDate, opt => opt.MapFrom(x => DateTime.Now));
         }
     }
 }
