@@ -18,7 +18,12 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             var result = await _categoryService.GetAll();
-                return View(result.Data);
+            return View(result.Data);
+        }
+
+        public IActionResult Add()
+        {
+            return PartialView("_CategoryAddPartial");
         }
     }
 }
